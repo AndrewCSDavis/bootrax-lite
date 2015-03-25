@@ -2,7 +2,7 @@
 
 Directories
 
-1.	- LIB
+1. LIB
 		-'lib/page_templates' contains the basic files it needs to process and display the template this directory contains:
 			+ an XML datasource
 			+ a XSL template
