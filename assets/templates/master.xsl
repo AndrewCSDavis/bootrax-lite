@@ -17,7 +17,6 @@
 				<!-- Fonts -->
 				<link href="{$root}assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 				<link href="{$root}assets/css/animate.css" rel="stylesheet" type="text/css" />
-				<!-- Squad theme CSS -->
 				<link type="text/css" href="{$root}assets/css/style.css" rel="stylesheet"/>
 				<link type="text/css" href="{$root}assets/css/default.min.css" rel="stylesheet"/>	
 				<link rel="stylesheet/less" type="text/css" href="{$root}assets/css/mq.less" />
