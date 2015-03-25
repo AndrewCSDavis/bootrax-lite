@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<pages>
+  <entry slug="about" url="http://localhost/bootrax-lite/about">
+    <title handle="about">About</title>
+  </entry>
+  <entry slug="blog" url="http://localhost/bootrax-lite/blog">
+    <title handle="blog">Blog</title>
+  </entry>
+  <entry slug="home" url="http://localhost/bootrax-lite/home">
+    <title handle="home">Home</title>
+  </entry>
+</pages>

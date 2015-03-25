@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<section>
+  
+  <blog type="section">
+    <entry id="5">
+      <author handle="admin" type="text" hidden="no">Admin</author>
+      <post handle="tr" type="textarea" hidden="yes">tr</post>
+      <date handle="2015-03-12" type="date" hidden="yes">2015-03-12</date>
+      <publish handle="on" type="checkbox" hidden="no">on</publish>
+    </entry>
+  </blog>
+  <projects type="section">
+    <entry id="0">
+      <author handle="a" type="text" hidden="no">a</author>
+      <post handle="p-this-is-a-text-section-p" type="textarea" hidden="no"><![CDATA[<p>this is a text section</p>]]></post>
+      <date handle="2015-03-06" type="date" hidden="no">2015-03-06</date>
+      <publish handle="on" type="checkbox" hidden="no">on</publish>
+    </entry>
+  </projects>
+  <about-me type="section">
+    <entry id="0">
+      <name handle="admin" type="text" hidden="no">Admin</name>
+      <content handle="p-this-is-some-content-p" type="textarea" hidden="yes"><![CDATA[<p>This is some content</p>]]></content>
+      <publish handle="on" type="checkbox" hidden="no">on</publish>
+    </entry>
+  </about-me>
+  <images type="section">
+    <entry id="1">
+      <publish handle="on" type="checkbox" hidden="no">on</publish>
+      <content handle="p-this-is-some-content-p" type="textarea" hidden="no"><![CDATA[<p>this is some content</p>]]></content>
+      <title handle="title" type="text" hidden="no">title</title>
+    </entry>
+    <entry id="2">
+      <publish handle="on" type="checkbox" hidden="no">on</publish>
+      <content handle="p-this-is-some-content-p" type="textarea" hidden="no"><![CDATA[<p>this is some content</p>]]></content>
+      <title handle="image-1" type="text" hidden="no">image 1</title>
+    </entry>
+  </images>
+</section>

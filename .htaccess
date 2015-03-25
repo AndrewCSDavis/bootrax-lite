@@ -1,0 +1,39 @@
+### Symphony 2.5.x ###
+Options +SymLinksIfOwnerMatch -Indexes
+
+<IfModule !mod_rewrite.c>
+
+    SetEnv HTTP_MOD_REWRITE No
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+		<IfModule mod_negotiation.c>
+			Options -MultiViews
+			#Options -Indexes
+		</IfModule>
+		<Files ~ "\.xml$">
+		 Order allow,deny
+		 Deny from all
+		 Satisfy all
+		</Files>
+		<Files ~ "\.xsl$">
+		 Order allow,deny
+		 Deny from all
+		 Satisfy all
+		</Files>
+		RewriteEngine on	
+		RewriteCond ${REQUEST_URI} ^.+$
+		RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g|png|js|css|less|swf|ico|txt|pdf|xml)$ [OR]
+		RewriteCond %{REQUEST_FILENAME} -f [OR]
+		RewriteCond %{REQUEST_FILENAME} -d [OR]
+		RewriteCond %{REQUEST_FILENAME} -l
+		RewriteRule ^ - [L]
+		
+		RewriteRule ([0-9a-z])$ index.php?_url=$1 [QSA,L]
+				
+		
+		
+		
+</IfModule>

@@ -1,0 +1,48 @@
+
+/* ipads to wearable tech */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+	
+	/*IPAD IN LANDSCAPE*/
+	
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2){
+	
+	/*RETINA IPAD IN LANDSCAPE*/
+	
+ }
+ 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+	
+	/*IPAD IN PORTRAIT*/
+	
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2){
+	
+	/*RETINA IPAD IN PORTRAIT*/
+	
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	
+}
+@media (max-width:768px) {
+		
+}
+
+@media (max-width:480px) {
+	
+}
+@media only screen and (max-width : 360px){
+	
+}
+@media   (max-device-width: 218px)  and (max-device-height: 281px) { 
+	/*wearable tech*/
+}
+@media  (max-device-width: 158px)  and (min-device-width: 143px) { 
+	/*wearable tech*/
+	/* same as below but with pixels */
+	
+}
+@media  (max-device-width: 42mm)  and (min-device-width: 38mm) { 
+	/*wearable tech*/
+}
