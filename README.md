@@ -1,7 +1,7 @@
-## README ##
+#BootraX lite#
 
 Directories 
-	- LIB
+1.	- LIB
 				'lib/page_templates' contains the basic files it needs to process and display the template 
 				this directory contains:
 					- an XML datasource
@@ -19,7 +19,7 @@ Directories
 				'lib/default.config.php' is the default config file, 
 					- it contains php variables that are available to use in the config.php files of the page you are viewing these are also passed as page params into the templates.
 					- you aree also able to set the site name in this file along with the page you want to use as home
-	  - ASSETS
+2. ASSETS
 				'css', 'js','images','fonts' all are filled with asset files needed in the templates 
 				'assets/templates' contains the main directories for all the pages you want to add to the site
 					for instance in order to add a new page you must first create a directory in 'assets/templates' with the name of the folder to be the title of that page to be
