@@ -3,9 +3,8 @@
 Directories
 
 - LIB
-		+ 'lib/page_templates' contains the basic files it needs to process and display the template this directory contains: [an XML datasource, a XSL template, a PHP file] that contains all the custom loading for each page and breaks up the page loading time to only get the xml datasource in the directory
-			+ and finally a config file that allows you to create custom page template parameters  
-		+ 'lib/functions' contains a single functions.php file that is included on load of every page, for example.. if you are viewing the home page then you are including the 'assets/templates/home/load.php' file into the main index.php file 
+	+ 'lib/page_templates' contains the basic files it needs to process and display the template this directory contains: [an XML datasource, a XSL template, a PHP file] that contains all the custom loading for each page and breaks up the page loading time to only get the xml datasource in the directory and finally a config file that allows you to create custom page template parameters  
+	+ 'lib/functions' contains a single functions.php file that is included on load of every page, for example.. if you are viewing the home page then you are including the 'assets/templates/home/load.php' file into the main index.php file 
 all these functions are helper functions that exist outside of a class and can be declared anywhere.
 	+ 'lib/nav' contains a navigation helper php file and xml file that gets rewritten on page load (must be left alone) according to the directories in the 'assets/templates' folder
 	+ 'lib/not-found' is a page default if there are no pages or templates inside the 'assets/templates' folder
