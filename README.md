@@ -1,6 +1,7 @@
 #BootraX lite#
 
-Directories 
+Directories
+
 1.	- LIB
 				'lib/page_templates' contains the basic files it needs to process and display the template 
 				this directory contains:
