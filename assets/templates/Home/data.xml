@@ -3,7 +3,68 @@
   <about-me type="section">
     <entry id="0">
       <name handle="admin" type="text" hidden="no">Admin</name>
-      <content handle="p-this-is-some-content-p" type="textarea" hidden="yes"><![CDATA[<p>This is some content</p>]]></content>
+      <content handle="p-this-is-some-content-p" type="textarea" hidden="yes">
+			<![CDATA[
+				<p>Bootrax was created using a mixture of PHP and XSL templates.The XML used for these templates is produced from directory accessed XML files</p>
+				<span class="site-directories">
+				<header><h4 class="text-primary portion-heading">App Directories & Page Variables</h4></header>
+				<span class="variables">
+					<h6 class="text-primary section-heading">Page Variables</h6>
+					<p>Variables available to page templates</p>
+					<ul>
+						<li>{$sitename}			  => 'bootrax-lite'</li>
+						<li>{$root} 					  => http://{DOMAIN NAME}/{$sitename}</li>
+						<li>{$homepageslug} =>'home'</li>
+					</ul>
+				</span>
+				<h6 class="text-primary section-heading">App Directories</h6>
+				<code>
+						{pagename} is also the title of the page so becareful when naming your directory<br/>
+						<span class="glyphicon glyphicon-home"></span> 
+							Home ->
+							<ul>
+								<li>assets
+									<ul>
+										<li>css</li>
+										<li>images</li>
+										<li>JS</li>
+										<li>templates
+											<ul>
+												<li>{pagename}
+													<ul>
+														<li>data.xml <small class="text-primary">(contains all the data relative to tha page)</small></li>
+														<li>load.php <small class="text-primary">(contains all the processing code to produce the page with all params and template)</small></li>
+														<li>page.xsl <small class="text-primary">(contains the the templating code)</small></li>
+														<li>config.php <small class="text-primary">(contains the extra page variables for each page)</small></li>
+													</ul>
+												</li>
+												<li>master.xsl <small class="text-primary">(contains the main template for including all css js and creating the outerbody tags)</small></li>
+												
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>lib
+									<ul>
+										<li>functions</li>
+										<li>nav</li>
+										<li>not-found</li>
+										<li>page_templates
+											<ul>
+														<li>data.xml</li>
+														<li>load.php</li>
+														<li>page.xsl</li>
+														<li>config.php</li>
+													</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+				</code>
+				</span>
+				<p> The inspiration for this application came from the eforts to try and find a faster and quicker developing alternative to using a CMS.</p>
+			]]>
+		</content>
       <publish handle="on" type="checkbox" hidden="no">on</publish>
     </entry>
   </about-me>

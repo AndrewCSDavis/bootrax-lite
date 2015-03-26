@@ -3,7 +3,11 @@
 	<blog type="section">
 		<entry id="5">
 		  <author handle="admin" type="text" hidden="no">Admin</author>
-		  <post handle="tr" type="textarea" hidden="yes">tr</post>
+		  <title handle="first-post" type="text" hidden="no">First post</title>
+		  <post-image file="images/post-1.jpg" hidden="no" type="upload" />
+		  <post handle="tr" type="textarea" hidden="yes"><![CDATA[
+				<p>This is my first post</p>
+		  ]]></post>
 		  <date handle="2015-03-12" type="date" hidden="yes">2015-03-12</date>
 		  <publish handle="on" type="checkbox" hidden="no">on</publish>
 		</entry>

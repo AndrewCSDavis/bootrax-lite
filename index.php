@@ -20,7 +20,7 @@
 		
 	
 	
-	generateNav($root);
+	generateNav($root,$navorder);
 	
 	if(file_exists('assets/templates/'.$request['currentpage'].'/load.php')){
 		include('assets/templates/'.$request['currentpage'].'/load.php');

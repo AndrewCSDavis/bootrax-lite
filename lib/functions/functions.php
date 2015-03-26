@@ -36,7 +36,7 @@ function ResetRequest($server){
 		}
 		return $text;
 	}
-	function generateNav($root){
+	function generateNav($root,$navorder){
 		$templates = 'assets/templates';
 		$nav = scandir($templates);
 		$nav = unsetDots($nav);
@@ -44,6 +44,14 @@ function ResetRequest($server){
 		$XML = new DOMDocument('1.0'); 
 		$XML->formatOutput = true;
 		$elem = $XML->createElement('pages');
+		if($navorder == 'ascending'){
+			sort($nav);
+			$nav = array_reverse($nav);
+		}elseif($navorder == 'descending'){
+			sort($nav);
+		}else{
+			
+		}
 		foreach($nav as $navitems => $items){
 			$page = $XML->createElement('entry');
 			$page->setAttribute('slug',slugify($items));
